@@ -22,7 +22,7 @@ acc_set = []
 
 is_pressing = False
 
-label = "line"
+label = "lineZ"
 
 # Functions
 def take_sample():
@@ -65,6 +65,7 @@ while True:
 
         is_pressing = True
 
+        # Take sample (take_sample())
         # Get points
         gyr_point = mpu.get_gyro()
         acc_point = mpu.get_accel()
